@@ -1,7 +1,7 @@
-test-frimework
+test-framework
 ==============
 
-test micro frimework in nodejs and python
+test micro framework in nodejs and python
 
 ## Bottle (Python)
 
