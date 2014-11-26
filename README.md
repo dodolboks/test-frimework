@@ -31,15 +31,18 @@ Module
 
 **Bottle** :
 
-	 gunicorn -b 127.0.0.1:8080 apps_bottle:app -k="meinheld.gmeinheld.MeinheldWorker" -w=5
-
+	 gunicorn -b 127.0.0.1:8080 apps_bottle:app -w=5
+	 
+**Wheezy**	 
+        gunicorn -b 127.0.0.1:8080 apps_wheezy:app -w=5
+        
 **Express**:
 
 	 node node_modules/server.js 8080
 
 **Falcon**:
 
-	 gunicorn -b 127.0.0.1:8080 apps_falcon:app -k="meinheld.gmeinheld.MeinheldWorker" -w=5
+	 gunicorn -b 127.0.0.1:8080 apps_falcon:app -w=5
 
 ### Benchmark
 
